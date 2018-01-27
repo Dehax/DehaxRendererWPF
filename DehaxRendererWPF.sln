@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DehaxRenderer", "DehaxRenderer\DehaxRenderer.csproj", "{B8C5A154-5FD9-4E6A-AD79-8050C6C93474}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FB08B2C-AF79-4CDE-8826-ED164B61D734} = {6FB08B2C-AF79-4CDE-8826-ED164B61D734}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DehaxGL", "DehaxGL\DehaxGL.csproj", "{6FB08B2C-AF79-4CDE-8826-ED164B61D734}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{B8C5A154-5FD9-4E6A-AD79-8050C6C93474}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8C5A154-5FD9-4E6A-AD79-8050C6C93474}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8C5A154-5FD9-4E6A-AD79-8050C6C93474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FB08B2C-AF79-4CDE-8826-ED164B61D734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FB08B2C-AF79-4CDE-8826-ED164B61D734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FB08B2C-AF79-4CDE-8826-ED164B61D734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FB08B2C-AF79-4CDE-8826-ED164B61D734}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
